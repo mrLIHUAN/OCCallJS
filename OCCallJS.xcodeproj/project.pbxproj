@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		187DECA01CA231AB00671939 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 187DEC9F1CA231AB00671939 /* test.html */; };
 		18BE2CD41CA12A14007E97CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE2CD31CA12A14007E97CA /* main.m */; };
 		18BE2CD71CA12A14007E97CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE2CD61CA12A14007E97CA /* AppDelegate.m */; };
 		18BE2CDA1CA12A14007E97CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE2CD91CA12A14007E97CA /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		18BE2CE21CA12A14007E97CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BE2CE01CA12A14007E97CA /* LaunchScreen.storyboard */; };
 		18BE2CED1CA12A14007E97CA /* OCCallJSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE2CEC1CA12A14007E97CA /* OCCallJSTests.m */; };
 		18BE2CF81CA12A14007E97CA /* OCCallJSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE2CF71CA12A14007E97CA /* OCCallJSUITests.m */; };
+		18BE2D061CA12A47007E97CA /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BE2D051CA12A47007E97CA /* JavaScriptCore.framework */; };
+		18BE2D091CA12D3D007E97CA /* JSObjCModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE2D081CA12D3D007E97CA /* JSObjCModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		187DEC9F1CA231AB00671939 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = test.html; path = OCCallJS/test.html; sourceTree = "<group>"; };
 		18BE2CCF1CA12A14007E97CA /* OCCallJS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCCallJS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BE2CD31CA12A14007E97CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18BE2CD51CA12A14007E97CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,9 @@
 		18BE2CF31CA12A14007E97CA /* OCCallJSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCCallJSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BE2CF71CA12A14007E97CA /* OCCallJSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCCallJSUITests.m; sourceTree = "<group>"; };
 		18BE2CF91CA12A14007E97CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BE2D051CA12A47007E97CA /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		18BE2D071CA12D3D007E97CA /* JSObjCModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSObjCModel.h; sourceTree = "<group>"; };
+		18BE2D081CA12D3D007E97CA /* JSObjCModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSObjCModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BE2D061CA12A47007E97CA /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +89,8 @@
 		18BE2CC61CA12A13007E97CA = {
 			isa = PBXGroup;
 			children = (
+				187DEC9F1CA231AB00671939 /* test.html */,
+				18BE2D051CA12A47007E97CA /* JavaScriptCore.framework */,
 				18BE2CD11CA12A14007E97CA /* OCCallJS */,
 				18BE2CEB1CA12A14007E97CA /* OCCallJSTests */,
 				18BE2CF61CA12A14007E97CA /* OCCallJSUITests */,
@@ -105,6 +115,8 @@
 				18BE2CD61CA12A14007E97CA /* AppDelegate.m */,
 				18BE2CD81CA12A14007E97CA /* ViewController.h */,
 				18BE2CD91CA12A14007E97CA /* ViewController.m */,
+				18BE2D071CA12D3D007E97CA /* JSObjCModel.h */,
+				18BE2D081CA12D3D007E97CA /* JSObjCModel.m */,
 				18BE2CDB1CA12A14007E97CA /* Main.storyboard */,
 				18BE2CDE1CA12A14007E97CA /* Assets.xcassets */,
 				18BE2CE01CA12A14007E97CA /* LaunchScreen.storyboard */,
@@ -243,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187DECA01CA231AB00671939 /* test.html in Resources */,
 				18BE2CE21CA12A14007E97CA /* LaunchScreen.storyboard in Resources */,
 				18BE2CDF1CA12A14007E97CA /* Assets.xcassets in Resources */,
 				18BE2CDD1CA12A14007E97CA /* Main.storyboard in Resources */,
@@ -270,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BE2D091CA12D3D007E97CA /* JSObjCModel.m in Sources */,
 				18BE2CDA1CA12A14007E97CA /* ViewController.m in Sources */,
 				18BE2CD71CA12A14007E97CA /* AppDelegate.m in Sources */,
 				18BE2CD41CA12A14007E97CA /* main.m in Sources */,
@@ -412,6 +426,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OCCallJS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lihuan.OCCallJS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OCCallJS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lihuan.OCCallJS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +512,7 @@
 				18BE2CFE1CA12A14007E97CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18BE2CFF1CA12A14007E97CA /* Build configuration list for PBXNativeTarget "OCCallJSTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +521,7 @@
 				18BE2D011CA12A14007E97CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18BE2D021CA12A14007E97CA /* Build configuration list for PBXNativeTarget "OCCallJSUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +530,7 @@
 				18BE2D041CA12A14007E97CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

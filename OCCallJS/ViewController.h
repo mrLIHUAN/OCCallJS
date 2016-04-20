@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "JSObjCModel.h"
 @interface ViewController : UIViewController
 
 
